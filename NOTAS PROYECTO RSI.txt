@@ -1,0 +1,41 @@
+IMPLEMENTACION QRADAR - DOC DE IBMCLOUD
+IMPLANTACION QRADAR - ENTORNO RSI-SANDBOX
+
+TENABLE VULNERABILIDADES
+
+TREND MICRO - AV - EDR - ENDPOINTS
+
+GENERAL
+			
+Integracion de las herramientas de seguridad	"QRadar -> Luis"
+
+3.5.3	Integración con SIEM: QRADAR
+
+Actualmente el equipo de seguridad tiene integrado en su SIEM (QRADAR) los logs de las herramientas de seguridad desplegadas. 
+Se ha decidido que se deben integrar en dicho SIEM los logs de auditoría que se generen en el servicio Activity Tracker que se despliega en la IBM Cloud.
+
+El diseño concreto de la forma de integración de este elemento se realizará en tiempo de proyecto, y en caso de ser necesario
+el despliegue de algún elemento servidor, este se desplegará en la VPC de Seguridad.
+
+Es necesario integrar los elementos que se levanten en la Cloud con las actuales herramientas de seguridad utilizadas por el equipo
+de RSI para realizar sus funciones. 
+
+Se han identificado las siguientes integraciones a realizar:
+
+- SIEM QRADAR: es necesario ingestar en el SIEM corporativo las auditoría de herramientas de seguridad que se levanten en la Cloud, 
+así como los logs de auditoría obtenidos con la pieza de Cloud Activity tracker
+
+1. Activity tracker aislado
+
+No realizar ninguna integración con SIEM on-prem
+
+2. Integración de Activity Tracker con Qradar
+
+_______________________________________________
+
+¿Tenable y AV agente reporta a consola onprem o consola cloud?	
+Tenable/AV -> Ferran"
+
+
+
+
